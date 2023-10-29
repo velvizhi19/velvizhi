@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+header {
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #10d489;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}
+
+.container section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #d6144e;
+}
+
+#summary {
+background-color: #62b8c7;
+
+    color: rgb(7, 6, 6);
+    border-radius: 30px;
+}
+
+#education {
+    background-color: white;
+    border-radius: 30px;
+}
+
+#skills {
+    background-color: #62b8c7;
+    border-radius: 30px;
+    color: rgb(20, 19, 19);
+}
+
+#projects {
+    background-color: white;
+    border-radius: 30px;
+}
+
+#contact {
+    background-color: #62b8c7;
+
+    color: rgb(10, 10, 10);
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 20%;
+}
+.zoomable {
+    cursor: pointer; /* Change cursor to a pointer on hover to indicate interactivity */
+    transition: transform 0.3s ease;
+}
+
